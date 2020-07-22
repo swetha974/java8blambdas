@@ -1,0 +1,36 @@
+class Java
+{
+void average()
+{
+List<integer>num=Arrays.asList(1,23,4,5,7,8,9,46);
+num.stream()
+.mapToInt(i->i)
+.average()
+.if Present(avg->System.out.println("average found is"+avg);)
+}
+void string()
+{
+List<string>names=Array.asList(ant,air,ball,aaabasket);
+public List<String>search(List<String>list)
+{
+return list.stream()
+.filter(s->s.startWith("a")
+.filter(s->s.Length()==3)
+.collect(collector.toList());
+}
+void palindrome()
+{
+List<String>names=Array.asList(mam,mom,hello,hi);
+List palindrome names=string.filterList(names,stringpredicates::is palindrome);
+System.out.println(" palindromes are");
+}
+}
+class Demo
+{
+public static void main(String args[])
+{
+Java ja=new Java();
+ja.average();
+ja.string();
+ja.palindrome();}
+}
